@@ -1,5 +1,10 @@
 //Language
+language: c
 //Install
+install: make dep
 //Compiler
+compiler: -gcc
 //Script
+script: make && make test
 //Sudo
+sudo: required
